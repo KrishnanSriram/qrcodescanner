@@ -22,7 +22,8 @@ const EmpInfoForm = () => {
     const handleScan = data => {
         if (data) {
             setResult(data);
-            alert('Scan success');
+	    const message = 'Scan success - ' + data;	
+            alert(message);
         }
         if(answer && result) {
             setCanSubmit(true);

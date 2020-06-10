@@ -6,6 +6,10 @@
 /.pnp
 .pnp.js
 
+# no-certs
+**/certs/*.crt
+**/certs/*.key
+
 # testing
 /coverage
 
